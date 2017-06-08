@@ -14,7 +14,7 @@ namespace VSNancyDemo
             var host = new WebHostBuilder()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseKestrel()
-                .UseStartup<Startup>().UseUrls("http://*:5000")
+                .UseStartup<Startup>().UseUrls("http://*:8080")
                 .Build();
 
             host.Run();
