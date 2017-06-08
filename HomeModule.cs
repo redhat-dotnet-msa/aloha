@@ -4,7 +4,7 @@ public class HomeModule : NancyModule
     {
         public HomeModule()
         {
-            Get("/", args => "Aloha from .NET, using the Nancy framework.");
+            Get("/", args => "Aloha from .NET, using the NancyFX framework.");
 
             Get("/os", x =>
             {
